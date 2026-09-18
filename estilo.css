@@ -1,1 +1,169 @@
 
+@import url('');
+
+
+body{
+    background-color: rgba(231, 153, 37, 0.295)
+}
+
+*{
+    text-align: center;
+}
+
+#img1{
+    width: 400px;
+}
+
+p{
+    line-height: 1.5;
+}
+
+
+
+
+#cabecalho{
+    background: linear-gradient(45deg, #829b72, #28543a);
+    text-align: center;
+    padding: 15px;
+    color: whitesmoke;
+    text-shadow: #999;
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+}
+#rodape{
+    background-color: chocolate;
+    padding: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 25px;
+    margin-top: 100px;
+}
+#principal{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #141312;
+} 
+
+
+
+#cardapio{
+    text-align: left;
+    margin-left: 3%;
+}
+#subtitulo{
+    color: black;
+    border-bottom: 2px solid ;
+    text-align: left;
+}
+#subtitulo2{
+    
+    color: black;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.611);
+    border-radius: 20px;
+    padding: 20px;
+    margin-right: 1320px;
+
+    
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.pesquerda{
+    text-align: left;
+}
+
+a:hover {
+  color: #00ffff;
+  text-shadow: 0 0 10px #00ffff;
+}
+
+
+.rodape-container {
+    background-color: #d36b27; /* Cor laranja do seu fundo */
+    color: #000000;
+    padding: 20px;
+    border-radius: 25px;
+    margin-top: 10px;
+    
+    /* Ativa o Flexbox para alinhar os filhos lado a lado */
+    display: flex; 
+    
+    /* Empurra um bloco para a extrema esquerda e o outro para a extrema direita */
+    justify-content: space-between; 
+    
+    /* Alinha os itens verticalmente pelo topo (opcional) */
+    align-items: flex-start; 
+}
+
+.bloco-horarios h3 {
+    margin-top: 0;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.bloco-horarios p, .bloco-contato p {
+    margin: 5px 0;
+    text-align: justify;
+}
+
+.bloco-contato {
+    text-align: justify; 
+
+}
+
+.coluna-meio {
+
+  font-weight: bold;
+  margin-left: 100px;
+  margin-top: 200px ;
+
+
+}
+.container {
+  display: flex;             /* Deixa os elementos lado a lado */
+  align-items: center;       /* Centraliza o texto e a imagem na vertical */
+  gap: 20px;                 /* Cria um espaço de respiro entre eles */
+}
+
+.container img {
+  width: 25px;              /* Define a largura da imagem */
+}
+
+#pia{
+    width: 50px;
+    border-radius: 30px;
+}
+
+
+
+#tabela-produtos{
+        border-collapse: collapse;
+        width: 100%;
+        max-width: 500px;
+        margin: auto;
+        }
+        th, td {
+            border: 1px solid #999;
+            padding: 8px 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #333;
+            color: #fff;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+
+.nunito-sans{
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+    font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+}
+
